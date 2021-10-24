@@ -93,5 +93,6 @@ module.exports = async (req, res) => {
   });
 
   // Login to Discord
+  res.send('Test');
   client.login(process.env.CLIENT_TOKEN);
 };
